@@ -19,8 +19,6 @@ const lineMaterial = new THREE.LineBasicMaterial({ color: "black" });
 const wireframe = new THREE.LineSegments(edges, lineMaterial);
 scene.add(wireframe);
 
-
-
 camera.position.z = 5;
 
 function animate(){
